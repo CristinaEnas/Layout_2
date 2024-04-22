@@ -130,3 +130,30 @@ a.nav-link:hover {
     font-size: 20px;
     font-weight: 500;
 }
+
+/* contatti */
+
+.form-control{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+    padding: 20px 0;
+}
+
+.form-control:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+#contatti label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+}
+
+.form-control:focus + label {
+    color: gray;
+    font-size: 12px;
+    transform: scale(0.65) translateY(-40%, -40%);
+}
