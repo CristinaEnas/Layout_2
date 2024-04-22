@@ -157,3 +157,9 @@ a.nav-link:hover {
     font-size: 12px;
     transform: scale(0.65) translateY(-40%, -40%);
 }
+
+.my_btn {
+    font-size: 20px;
+    color: white;
+    background-color: #1abc9c;
+}
